@@ -4,7 +4,7 @@
 
 Vamos a las extensoines de mozilla y descargamos HTTP Header Live
 
-![alt text](image.png)
+![alt text](imagenes/image.png)
 
 ## Parte 2: Captura de petición HTTP
 
@@ -12,7 +12,7 @@ Vamos a las extensoines de mozilla y descargamos HTTP Header Live
 2. Activamos el capturador de tráfico http si no está activo.
 3. Navegamos a https://librebits.info
 
-![alt text](Captura_head-1.png)
+![alt text](imagenes/Captura_head-1.png)
 
 - ### Host
   Indica el nombre del dominio al cual se dirige la solicitud, para que el servido sepa a donde quiere acceder el usuario.
@@ -26,8 +26,10 @@ Vamos a las extensoines de mozilla y descargamos HTTP Header Live
 
   Informa al servidor de como va a manejar el navegador los tipos de compresión. Permite enviar archivos gzip o br
 
-- ## Parte 3: Captura de respuesta HTTP
-  Indica que la solicitud fue exitosa. Significa "OK".
+## Parte 3: Captura de respuesta HTTP
+
+Indica que la solicitud fue exitosa. Significa "OK".
+
 - ### Server:
   Identifica el software del servidor web que respondió a la solicitud.
 - ### Date:
@@ -40,12 +42,12 @@ Vamos a las extensoines de mozilla y descargamos HTTP Header Live
 
 - ### Código de estado: 200:
 
-  ![alt text](image-1.png)
+  ![alt text](imagenes/image-1.png)
 
 - ### Código de estado: 400:
-  ![alt text](Not-Found-1.png)
+  ![alt text](imagenes/Not-Found-1.png)
 
-# Análisis Comparativo de Respuestas HTTP (Parte 3)
+## Análisis Comparativo de Respuestas HTTP
 
 La comparación se realiza entre la petición a la URL raíz (A: https://librebits.info) que resulta en un código de éxito, y la petición a la URL inexistente (B: https://librebits.info/404) que resulta en un error.
 
@@ -85,11 +87,11 @@ La comparación se centra en cómo el servidor trata la entrega de diferentes ti
 
 ## Imagen
 
-![alt text](Captura_image.png)
+![alt text](imagenes/Captura_image.png)
 
 ## Css
 
-![alt text](Captura_css-1.png)
+![alt text](imagenes/Captura_css-1.png)
 
 ## Tipo de Recurso Ejemplo de Petición Ejemplo de Content-Type Significado (Función en el Navegador)
 
