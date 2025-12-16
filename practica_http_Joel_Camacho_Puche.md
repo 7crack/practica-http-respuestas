@@ -81,6 +81,20 @@ Presente y muestra el tamaño completo de la página web.	Generalmente más pequ
 Podrían incluir cabeceras de caching específicas o Set-Cookie si es la primera visita.	Podrían incluir cabeceras que evitan el caching, indicando al navegador que no guarde en caché la página de error. Diferencia: Las cabeceras como Cache-Control pueden variar para optimizar el rendimiento y evitar que se guarde un error.
 ```
 
+## DNS Lookup de librebits.info
+
+![alt text](<Screenshot 2025-12-16 at 18-05-32 ns-lookup - DNS lookup.png>)
+
+He realizado una consulta DNS (DNS lookup) para el dominio librebits.info utilizando una extensión de navegador o el servicio online https://ns-lookup.io.
+
+- Registros A / AAAA: Muestran las direcciones IP (IPv4 y/o IPv6) del servidor. Esto es lo que permite al navegador saber a qué máquina conectarse.
+
+- Registros NS (Name Server): Indican los servidores DNS responsables de la gestión del dominio.
+
+- Registro MX (Mail Exchange): (Si están presentes) Especifican los servidores de correo electrónico para el dominio.
+
+- Registro SOA (Start of Authority): Contiene información administrativa sobre la zona, incluyendo el servidor primario y el correo del administrador.
+
 ## Parte 4: Análisis Comparativo de Recursos
 
 La comparación se centra en cómo el servidor trata la entrega de diferentes tipos de archivos necesarios para renderizar una página web (una imagen vs. un archivo de estilos o script).
@@ -93,7 +107,7 @@ La comparación se centra en cómo el servidor trata la entrega de diferentes ti
 
 ![alt text](imagenes/Captura_css-1.png)
 
-## Tipo de Recurso Ejemplo de Petición Ejemplo de Content-Type Significado (Función en el Navegador)
+## Tipo de Recurso Ejemplo de Petición Ejemplo de Content-Type Significado
 
 ### Imagen GET /imagen.jpg image/jpeg o image/png
 
