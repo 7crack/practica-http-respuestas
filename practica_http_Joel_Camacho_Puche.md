@@ -83,7 +83,7 @@ Podrían incluir cabeceras de caching específicas o Set-Cookie si es la primera
 
 ## DNS Lookup de librebits.info
 
-![alt text](<Screenshot 2025-12-16 at 18-05-32 ns-lookup - DNS lookup.png>)
+![alt text](imagenes/Screenshot%202025-12-16%20at%2018-05-32%20ns-lookup%20-%20DNS%20lookup.png)
 
 He realizado una consulta DNS (DNS lookup) para el dominio librebits.info utilizando una extensión de navegador o el servicio online https://ns-lookup.io.
 
